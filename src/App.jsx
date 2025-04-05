@@ -20,7 +20,9 @@ function App() {
       setLoading(true);
       const data = await fetchArticlesWithTopic(topic);
       setArticles(data);
-    } catch (error) {
+    } catch {
+      // } catch (error) {
+      // console.log(error);
       setError(true);
     } finally {
       setLoading(false);
