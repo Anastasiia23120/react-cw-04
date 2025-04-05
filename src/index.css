@@ -32,4 +32,6 @@ img {
 
 button {
   cursor: pointer;
+  min-height: 50px;
+  min-width: 80px;
 }
